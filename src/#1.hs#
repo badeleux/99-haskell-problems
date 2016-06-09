@@ -1,0 +1,5 @@
+module Lists1 where
+
+myLast :: (Show a) =>  [a] -> a
+myLast = head . reverse
+
